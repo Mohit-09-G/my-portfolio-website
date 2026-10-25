@@ -51,7 +51,7 @@ export function Footer() {
         </div>
 
         <p className="mt-12 border-t border-line pt-8 text-sm text-muted">
-          © {site.copyrightYear} {site.name}. Designed and built by me.
+          © {site.copyrightYear} {site.name}.
         </p>
       </div>
     </footer>

@@ -105,10 +105,8 @@ export function Hero() {
                 </span>
               ))}
             </div>
-            <p className="text-sm leading-tight text-muted">
-              <span className="font-display text-lg font-semibold text-fg">{brands.length} live products</span>
-              <br />
-              built by me
+            <p className="font-display text-lg font-semibold leading-tight text-fg">
+              {brands.length} live products
             </p>
           </motion.div>
         </div>
@@ -137,11 +135,7 @@ export function Hero() {
             <span className="font-display text-2xl font-semibold text-accent">
               {brands.length}
             </span>
-            <span className="text-xs leading-tight text-muted">
-              live products
-              <br />
-              built by me
-            </span>
+            <span className="text-xs leading-tight text-muted">live products</span>
           </div>
         </motion.div>
       </div>
